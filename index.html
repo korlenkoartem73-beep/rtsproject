@@ -1,107 +1,243 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Портфолио разработчика</title>
+
   <link rel="stylesheet" href="style.css" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
 </head>
+
 <body>
+
 <div class="container">
 
   <!-- ===== HERO СЕКЦИЯ ===== -->
   <section class="hero">
+
     <div class="hero-content">
-      <div class="badge"><i class="fas fa-code"></i> доступен для работы</div>
-      <h1>Привет, я <span>Артем</span></h1>
-      <p class="slogan">я Создаю проекти делаю видео делаю комиксы  вниманием к деталям.</p>
-      <!-- Кнопка загрузки фото УДАЛЕНА -->
+
+      <div class="badge">
+        <i class="fas fa-code"></i> Доступен для работы
+      </div>
+
+      <h1>Привет, я <span>Артём</span></h1>
+
+      <p class="slogan">
+        Я создаю проекты, делаю видео и рисую комиксы, уделяя внимание каждой детали.
+      </p>
+
     </div>
+
     <div class="hero-preview" id="heroPreview">
       <i class="fas fa-user-circle placeholder-icon"></i>
-      <img id="heroImage" style="display: none;" alt="avatar" />
+
+      <img
+        id="heroImage"
+        style="display: none;"
+        alt="Аватар"
+      />
     </div>
+
   </section>
 
+
   <!-- ===== ПОРТФОЛИО ===== -->
-  <h2 class="section-title"><i class="fas fa-th-large"></i> Мои проекты</h2>
+
+  <h2 class="section-title">
+    <i class="fas fa-th-large"></i> Мои проекты
+  </h2>
+
   <div class="projects-grid">
 
-    <!-- Проект 1: Комикс (только картинка, без видео) -->
+
+    <!-- ===== ПРОЕКТ 1: КОМИКС ===== -->
+
     <div class="project-card" data-project="comic">
+
       <div class="project-image" id="projectImage1">
+
         <i class="fas fa-image placeholder-icon"></i>
-        <img id="projectImg1" style="display: none;" alt="комикс" />
+
+        <img
+          id="projectImg1"
+          style="display: none;"
+          alt="Комикс"
+        />
+
       </div>
-      <span class="project-tag"><i class="fas fa-pen-fancy"></i> иллюстрация</span>
-      <h3>собаче «противостояние»</h3>
-      <p> это короткая история о киборге собаке и обичной собаке история как ни подружислись            
-        </p>
+
+      <span class="project-tag">
+        <i class="fas fa-pen-fancy"></i> Иллюстрация
+      </span>
+
+      <h3>Комикс «Противостояние»</h3>
+
+      <p>
+        Это короткая история о киборге-собаке и обычной собаке,
+        которые сначала противостоят друг другу, но постепенно находят общий язык.
+      </p>
+
     </div>
 
-    <!-- Проект 2: Видеопроект (только здесь видео) -->
+
+    <!-- ===== ПРОЕКТ 2: ВИДЕОПРОЕКТ ===== -->
+
     <div class="project-card" data-project="video">
+
       <div class="project-image" id="projectImage2">
+
         <i class="fas fa-video placeholder-icon"></i>
-        <img id="projectImg2" style="display: none;" alt="видеопроект" />
+
+        <img
+          id="projectImg2"
+          style="display: none;"
+          alt="Видеопроект"
+        />
+
         <!-- 🎬 КНОПКА ВИДЕО НА ИЗОБРАЖЕНИИ -->
+
         <a href="#" class="project-video-btn" data-video="video">
           <i class="fas fa-play-circle"></i>
         </a>
+
       </div>
-      <span class="project-tag"><i class="fas fa-play-circle"></i> motion</span>
-      <h3>Видеопроект «собачье противостояние  »</h3>
-      <p>Документальный ролик о киборг собаке и обичной собаке   искусства, съёмки и монтаж — всё сделано мной.</p>
+
+      <span class="project-tag">
+        <i class="fas fa-play-circle"></i> Motion
+      </span>
+
+      <h3>Видеопроект «Собачье противостояние»</h3>
+
+      <p>
+        Короткий видеоролик о киборге-собаке и обычной собаке.
+        Съёмка, визуальное оформление и монтаж выполнены мной.
+      </p>
+
       <div class="project-links">
+
         <a href="#" class="video-link" data-video="video">
           <i class="fas fa-play"></i> Смотреть видео
         </a>
+
       </div>
+
     </div>
 
-    <!-- Проект 3: JS игра (только картинка, без видео) -->
+
+    <!-- ===== ПРОЕКТ 3: JS ИГРА ===== -->
+
     <div class="project-card" data-project="game">
+
       <div class="project-image" id="projectImage3">
+
         <i class="fas fa-gamepad placeholder-icon"></i>
-        <img id="projectImg3" style="display: none;" alt="js игра" />
+
+        <img
+          id="projectImg3"
+          style="display: none;"
+          alt="JS-игра"
+        />
+
       </div>
-      <span class="project-tag"><i class="fas fa-code"></i> game dev</span>
-      <h3>JS игра «Shadowfall »</h3>
-      <p>Аркада на чистом JavaScript с анимациями и системой очков. Управляй щитом и отражай противников.</p>
+
+      <span class="project-tag">
+        <i class="fas fa-code"></i> Game Dev
+      </span>
+
+      <h3>JS-игра «Shadowfall»</h3>
+
+      <p>
+        Аркадная игра на чистом JavaScript с анимациями и системой очков.
+        Управляйте щитом и отражайте атаки противников.
+      </p>
+
     </div>
+
   </div>
 
+
   <!-- ===== КОНТАКТЫ ===== -->
+
   <section class="contacts">
+
     <div class="contacts-wrapper">
+
       <div class="contacts-info">
+
         <div class="contact-item">
+
           <i class="fas fa-envelope"></i>
-          <a href="mailto:alex@devportfolio.ru">artem@korolenko.</a>
+
+          <a href="mailto:artem@korolenko.ru">
+            artem@korolenko.ru
+          </a>
+
         </div>
+
+
         <div class="contact-item">
+
           <i class="fab fa-telegram-plane"></i>
-          <a href="#">@artem</a>
+
+          <a href="#">
+            @artem
+          </a>
+
         </div>
+
+
         <div class="contact-item">
+
           <i class="fas fa-phone-alt"></i>
-          <span>+49 171 923-12-07</span>
+
+          <span>
+            +49 171 923-12-07
+          </span>
+
         </div>
+
       </div>
+
+
       <div class="contact-social">
-        <a href="#" aria-label="github"><i class="fab fa-github"></i></a>
-        <a href="#" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#" aria-label="dribbble"><i class="fab fa-dribbble"></i></a>
+
+        <a href="#" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a href="#" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <a href="#" aria-label="Dribbble">
+          <i class="fab fa-dribbble"></i>
+        </a>
+
       </div>
+
     </div>
+
   </section>
 
 </div>
 
+
 <script src="script.js"></script>
+
 </body>
 </html>
