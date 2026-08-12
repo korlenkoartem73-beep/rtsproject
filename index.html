@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
@@ -17,15 +17,9 @@
   <section class="hero">
     <div class="hero-content">
       <div class="badge"><i class="fas fa-code"></i> доступен для работы</div>
-      <h1>Привет, я <span>Алексей</span></h1>
-      <p class="slogan">Создаю цифровые продукты с душой и вниманием к деталям.</p>
-      <div class="hero-upload">
-        <div class="upload-btn-wrapper">
-          <button class="btn-upload"><i class="fas fa-cloud-upload-alt"></i> Загрузить фото</button>
-          <input type="file" id="heroUpload" accept="image/*" />
-        </div>
-        <span class="hint"><i class="fas fa-arrow-right"></i> своё изображение</span>
-      </div>
+      <h1>Привет, я <span>Артем</span></h1>
+      <p class="slogan">я Создаю проекти делаю видео делаю комиксы  вниманием к деталям.</p>
+      <!-- Кнопка загрузки фото УДАЛЕНА -->
     </div>
     <div class="hero-preview" id="heroPreview">
       <i class="fas fa-user-circle placeholder-icon"></i>
@@ -37,47 +31,31 @@
   <h2 class="section-title"><i class="fas fa-th-large"></i> Мои проекты</h2>
   <div class="projects-grid">
 
-    <!-- Проект 1: Комикс -->
+    <!-- Проект 1: Комикс (только картинка, без видео) -->
     <div class="project-card" data-project="comic">
       <div class="project-image" id="projectImage1">
         <i class="fas fa-image placeholder-icon"></i>
         <img id="projectImg1" style="display: none;" alt="комикс" />
-        <div class="project-upload">
-          <i class="fas fa-camera"></i> Загрузить
-          <input type="file" accept="image/*" class="projectFileInput" data-target="projectImg1" data-preview="projectImage1" />
-        </div>
-        <!-- 🎬 КНОПКА ВИДЕО НА ИЗОБРАЖЕНИИ -->
-        <a href="#" class="project-video-btn" data-video="comic">
-          <i class="fas fa-play-circle"></i>
-        </a>
       </div>
       <span class="project-tag"><i class="fas fa-pen-fancy"></i> иллюстрация</span>
-      <h3>Комикс «Пиксель»</h3>
-      <p>Короткий графический роман о приключениях разработчика в мире кода. Яркие персонажи и динамичные сцены.</p>
-      <div class="project-links">
-        <a href="#" class="video-link" data-video="comic">
-          <i class="fas fa-play"></i> Смотреть видео
-        </a>
-      </div>
+      <h3>собаче «противостояние»</h3>
+      <p> это короткая история о киборге собаке и обичной собаке история как ни подружислись            
+        </p>
     </div>
 
-    <!-- Проект 2: Видеопроект -->
+    <!-- Проект 2: Видеопроект (только здесь видео) -->
     <div class="project-card" data-project="video">
       <div class="project-image" id="projectImage2">
         <i class="fas fa-video placeholder-icon"></i>
         <img id="projectImg2" style="display: none;" alt="видеопроект" />
-        <div class="project-upload">
-          <i class="fas fa-camera"></i> Загрузить
-          <input type="file" accept="image/*" class="projectFileInput" data-target="projectImg2" data-preview="projectImage2" />
-        </div>
         <!-- 🎬 КНОПКА ВИДЕО НА ИЗОБРАЖЕНИИ -->
         <a href="#" class="project-video-btn" data-video="video">
           <i class="fas fa-play-circle"></i>
         </a>
       </div>
       <span class="project-tag"><i class="fas fa-play-circle"></i> motion</span>
-      <h3>Видеопроект «Код времени»</h3>
-      <p>Документальный ролик о процессе создания цифрового искусства, съёмки и монтаж — всё сделано мной.</p>
+      <h3>Видеопроект «собачье противостояние  »</h3>
+      <p>Документальный ролик о киборг собаке и обичной собаке   искусства, съёмки и монтаж — всё сделано мной.</p>
       <div class="project-links">
         <a href="#" class="video-link" data-video="video">
           <i class="fas fa-play"></i> Смотреть видео
@@ -85,28 +63,15 @@
       </div>
     </div>
 
-    <!-- Проект 3: JS игра -->
+    <!-- Проект 3: JS игра (только картинка, без видео) -->
     <div class="project-card" data-project="game">
       <div class="project-image" id="projectImage3">
         <i class="fas fa-gamepad placeholder-icon"></i>
         <img id="projectImg3" style="display: none;" alt="js игра" />
-        <div class="project-upload">
-          <i class="fas fa-camera"></i> Загрузить
-          <input type="file" accept="image/*" class="projectFileInput" data-target="projectImg3" data-preview="projectImage3" />
-        </div>
-        <!-- 🎬 КНОПКА ВИДЕО НА ИЗОБРАЖЕНИИ -->
-        <a href="#" class="project-video-btn" data-video="game">
-          <i class="fas fa-play-circle"></i>
-        </a>
       </div>
       <span class="project-tag"><i class="fas fa-code"></i> game dev</span>
-      <h3>JS игра «Космический щит»</h3>
-      <p>Аркада на чистом JavaScript с анимациями и системой очков. Управляй щитом и отражай астероиды.</p>
-      <div class="project-links">
-        <a href="#" class="video-link" data-video="game">
-          <i class="fas fa-play"></i> Смотреть видео
-        </a>
-      </div>
+      <h3>JS игра «Shadowfall »</h3>
+      <p>Аркада на чистом JavaScript с анимациями и системой очков. Управляй щитом и отражай противников.</p>
     </div>
   </div>
 
@@ -116,15 +81,15 @@
       <div class="contacts-info">
         <div class="contact-item">
           <i class="fas fa-envelope"></i>
-          <a href="mailto:alex@devportfolio.ru">alex@devportfolio.ru</a>
+          <a href="mailto:alex@devportfolio.ru">artem@korolenko.</a>
         </div>
         <div class="contact-item">
           <i class="fab fa-telegram-plane"></i>
-          <a href="#">@alex_dev</a>
+          <a href="#">@artem</a>
         </div>
         <div class="contact-item">
           <i class="fas fa-phone-alt"></i>
-          <span>+7 999 123-45-67</span>
+          <span>+49 171 923-12-07</span>
         </div>
       </div>
       <div class="contact-social">
